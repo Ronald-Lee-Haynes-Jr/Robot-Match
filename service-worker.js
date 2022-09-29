@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/villagefamily/precache-manifest.f7e3fe836e942e27ab859831a0863268.js"
+  "/Robot-Match/precache-manifest.ea70a9948d6462afa554fedf1d18e0cf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/villagefamily/index.html", {
+workbox.routing.registerNavigationRoute("/Robot-Match/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
